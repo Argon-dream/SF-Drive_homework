@@ -147,6 +147,13 @@ h2 {
   margin: 0;
 }
 
+p {
+  margin: 10px;
+  font-size: 16px;
+  line-height: 147.3%;
+}
+
+
 /* Grouping content
    ========================================================================== */
 
@@ -454,3 +461,52 @@ template {
 }
 
 /* header */
+.menu__frame {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+
+  &-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    &-link {
+      text-decoration: none;
+      font-size: 16px;
+      line-height: 19px;
+      color: $lightblack;
+      margin: 0 0 0 30px;
+      cursor: pointer;
+
+      &.is-active, &:hover {
+        color: $black;
+      }
+    }
+
+    &-button{
+      margin: 0 40px;
+      border: 1px solid $teamgrey;
+      border-radius: 6px;
+      background-color: $white;
+      font-size: 16px;
+      line-height: 19px;
+      color: $lightblack;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  }
+}
+
+/* first__fame */
+.first__fame{
+  &-img{
+    display: flex;
+    justify-content: center;
+    margin: 40px 54px;
+  }
+}
+
+
