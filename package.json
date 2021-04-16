@@ -1,0 +1,13 @@
+{
+  "name": "sf-drive",
+  "version": "1.0.0",
+  "description": "SF-Drive site. Created during the course by Skillfactory",
+  "main": "script.js",
+  "scripts": {
+    "test": "test",
+    "compile-sass": "sass src/scss/style.scss src/css/style.css",
+    "watch-sass": "sass --watch src/scss/style.scss:src/css/style.css"
+  },
+  "author": "Olesja Beskina",
+  "license": "ISC"
+}
